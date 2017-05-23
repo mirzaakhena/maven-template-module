@@ -2,13 +2,13 @@
 
 This is simple module template for maven project
 
-you can run it with maven
+you can run it with maven (make sure you are under maven-template-module directory)
 
 	mvn clean install
-	cd firstchild/
+	cd experiment-hellomodule/
 	mvn spring-boot:run
 
-the open browser, we can access the first child hello message
+the open browser, we can access the hello message
 
 	http://localhost:8080/hello?name=mirza
 
@@ -31,4 +31,4 @@ produce
 	}
 
 In this project i want to show you that we can access another service from another (bundle) module. 
-In this case, we can access `CalculatorService` from `HelloServiceImpl`
+In this case, we can access `CalculatorService` (in experiment-calculatormodule) from `HelloServiceImpl` (in experiment-hellomodule)

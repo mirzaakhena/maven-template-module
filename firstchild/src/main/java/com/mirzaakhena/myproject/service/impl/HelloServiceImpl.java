@@ -16,10 +16,11 @@ public class HelloServiceImpl implements HelloService {
 	@Override
 	public HelloModel helloworld(String name) {
 
+		// try to use another service from another bundle
 		int x = calculatorService.sum(2, 3).getSumAB();
 
 		HelloModel model = new HelloModel();
-		model.setMessage("hello " + name + " : " + x);
+		model.setMessage("hello " + name + ". Sum of 2 + 3 = " + x);
 		return model;
 	}
 

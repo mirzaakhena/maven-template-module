@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mirzaakhena.myproject.service.CalculatorService;
 
-//@RestController
+@RestController
 public class CalculatorController {
 
 	@Autowired

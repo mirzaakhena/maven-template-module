@@ -15,7 +15,7 @@ the open browser, we can access the first child hello message
 will produce
 
 	{
-		"message": "hello mirza"
+		"message": "hello mirza. Sum of 2 + 3 = 5"
 	}
 
 and then the another child that have simple sum service
@@ -29,3 +29,6 @@ produce
 		"b": 5,
 		"sumAB": 7
 	}
+
+In this project i want to show you that we can access another service from another (bundle) module. 
+In this case, we can access `CalculatorService` from `HelloServiceImpl`
